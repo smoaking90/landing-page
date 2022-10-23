@@ -129,6 +129,26 @@ h1{
 .quote{
     height: 500px;
     background-color: #e5e7eb;
+    display:flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    align-items: center;
+}
+
+.text{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:column;
+    margin:20px;
+    padding:20px;
+}
+
+.charlie{
+    font-weight: bolder; 
+    display:flex;
+    justify-content: flex-end;
+    margin:40px;
 }
 
 
@@ -146,7 +166,27 @@ h1{
     gap: 20px;
   }
 
+  .call{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 24px;
+  }
+
+  .action-box{
+    display:flex;
+    box-sizing: border-box;
+    
+  }
+
+
+.action-box, .bottom-button{
+    background-color: #3882f6;
+    color:white;
+}
+
   footer{
     display: flex;
     justify-content: center;
+    align-items: center;
   }
